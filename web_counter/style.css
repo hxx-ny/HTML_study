@@ -19,9 +19,21 @@ body{
     color: #232323;
     font-size: 35px;
     overflow: auto;
-    padding: 20px;
+    padding: 15px;
     text-align: right;
     width: 326px;
+}
+
+.wrapper{
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    overflow: auto;
+    padding: 10px;
+    text-align: right;
+    width: 360px;
 }
 
 .button-row{
