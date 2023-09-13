@@ -8,11 +8,16 @@
 </head>
 <body>
     <div class="wrapper">
-        <input type="text" id="result" disabled class="screen">
-        
+        <div>
+            <input type="text" id="result" disabled class="screen">
+        </div>
         <div class="button-row">
-            <button onclick="clearScreen()" class="button triple">AC</button>
-            <button onclick="appendToScreen('/')" class="button">/</button>
+            <button onclick="clearScreen()" class="button triple">
+                AC
+            </button>
+            <button onclick="appendToScreen('/')" class="button">
+                &#247;
+            </button>
         </div>
 
         <div class="button-row">
@@ -25,8 +30,8 @@
             <button onclick="appendToScreen('9')" class="button">
                 9
             </button>
-            <button onclick="appendToScreen('+')" class="button">
-                +
+            <button onclick="appendToScreen('*')" class="button">
+                &#215;
             </button>
         </div>
 
@@ -41,7 +46,7 @@
                 6
             </button>
             <button onclick="appendToScreen('-')" class="button">
-                -
+                &#8722;
             </button>
         </div>
 
@@ -55,8 +60,8 @@
             <button onclick="appendToScreen('3')" class="button">
                 3
             </button>
-            <button onclick="appendToScreen('*')" class="button">
-                x
+            <button onclick="appendToScreen('+')" class="button">
+                &#43;
             </button>
         </div>
 
@@ -68,7 +73,7 @@
                 .
             </button>
             <button onclick="calculateResult()" class="button">
-                =
+                &#61;
             </button>
         </div>
     </div>
